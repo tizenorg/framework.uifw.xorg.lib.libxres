@@ -1,8 +1,8 @@
 
-Name:       libXres
+Name:       libxres
 Summary:    X.Org X11 libXres runtime library
 Version:    1.0.5
-Release:    0
+Release:    2.4
 Group:      System/Libraries
 License:    MIT
 URL:        http://www.x.org
@@ -35,9 +35,8 @@ Description: %{summary}
 
 
 %build
-
-%reconfigure \
-	LDFLAGS="-Wl,--hash-style=both -Wl,--as-needed"
+export LDFLAGS+=" -Wl,--hash-style=both -Wl,--as-needed"
+%reconfigure 
 
 # Call make instruction with smp support
 make %{?jobs:-j%jobs}

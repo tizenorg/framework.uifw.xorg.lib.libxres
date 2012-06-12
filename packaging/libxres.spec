@@ -3,7 +3,7 @@ Name:       libxres
 Summary:    X.Org X11 libXres runtime library
 Version:    1.0.5
 Release:    2.4
-Group:      System/Libraries
+Group:      Graphics/X Window System
 License:    MIT
 URL:        http://www.x.org
 Source0:    http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.gz

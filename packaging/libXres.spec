@@ -1,6 +1,6 @@
 Summary: X-Resource extension client library
 Name: libXres
-Version: 1.0.6
+Version: 1.0.7
 Release: 1
 License: MIT
 Group: System Environment/Libraries
@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 /usr/share/license/%{name}
-%doc AUTHORS COPYING ChangeLog
+%doc AUTHORS COPYING
 %{_libdir}/libXRes.so.1
 %{_libdir}/libXRes.so.1.0.0
 

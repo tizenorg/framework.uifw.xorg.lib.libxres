@@ -1,0 +1,6 @@
+* Mon Mar 18 2013 Anas Nashif <anas.nashif@intel.com> submit/trunk/20130221.150404@3b28597
+- Fixed package groups
+
+* Thu Feb 21 2013 Anas Nashif <anas.nashif@intel.com> upstream/1.0.6@f334a82
+- Add baselibs.conf to support multilib
+
